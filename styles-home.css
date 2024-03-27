@@ -1,0 +1,120 @@
+p,span{
+    background-color: rgb(164, 159, 151);
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    background-color: wheat;
+    box-sizing: border-box;
+}
+.header{
+    width: 1fr;  
+    background-color: rgb(92, 150, 92);
+    color: white;
+    margin: 0;
+    padding: 10px;
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr 1fr 50px;
+    padding-bottom: 10px ;
+
+}
+.Rik{
+    font-size: 30px;
+    background-color: rgb(92, 150, 92);
+}
+.header-text{
+    font-size: 20px;
+    padding-top: 8px;
+    margin-left: 20px;
+    transition: 0.7s;
+    background-color: rgb(92, 150, 92);
+    text-decoration: none;
+    color: white;
+}
+.header-text:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.home-text-background{
+    align-self: center;
+    margin-top: 70px;
+    padding: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgb(164, 159, 151);
+    border-radius: 50px;
+}
+.home-title{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    background-color: rgb(164, 159, 151);
+}
+.home-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(164, 159, 151);
+    text-align: center;
+}
+.peer-image{
+    width: 50px;
+    height: 50px;
+    padding-top: 8px;
+    background-color: rgb(92, 150, 92);
+}
+.about-me-title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    background-color: rgb(164, 159, 151);
+}
+.about-me-text{
+    width: 605px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(164, 159, 151);
+}
+.highlights{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(164, 159, 151);
+}
+.info{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.info2{
+    color: blue;
+    text-decoration: underline;
+
+}
+ .outer-grid {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 4px;
+    width: auto;
+    max-height: 200px;
+    max-width: 1400px;
+    column-gap: 20px;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+ }
+ .inner-grid img {
+    margin-top: 8px;
+    width: 100%;
+    padding: 4px;
+    background-color: rgb(164, 159, 151);
+    border-radius: 20px;
+    margin-left: 20px;
+ }
+
