@@ -98,7 +98,7 @@ p,span{
  .outer-grid {
     margin-top: 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 0 4px;
     width: auto;
     max-height: 200px;
